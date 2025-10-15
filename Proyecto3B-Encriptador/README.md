@@ -13,6 +13,80 @@ Sistema completo de encriptación que implementa 5 algoritmos diferentes utiliza
 
 ---
 
+---
+
+## 📁 Dos Versiones Disponibles
+
+Este proyecto incluye dos implementaciones del mismo sistema:
+
+### Versión 1: `Proyecto3B_Encriptador.cpp` ⭐ (Recomendada)
+
+**Características avanzadas:**
+- ✅ Header de 4 bytes (`ENC` + tipo de algoritmo)
+- ✅ Detección automática del algoritmo al desencriptar
+- ✅ Creación automática de carpetas (`bak/Restore`)
+- ✅ Sistema profesional de gestión de archivos
+
+**Uso:**
+```bash
+# Encriptar
+Proyecto3B_Encriptador.exe e [tipo:1-5] [archivo]
+
+# Desencriptar (detecta algoritmo automáticamente)
+Proyecto3B_Encriptador.exe d [archivo.enc]
+```
+
+**Ejemplo:**
+```bash
+Proyecto3B_Encriptador.exe e 3 MiFoto.jpg
+Proyecto3B_Encriptador.exe d c:\misproyectosdelTec-bak\MiFoto.jpg.enc
+```
+
+---
+
+### Versión 2: `Proyecto3B-Encriptador.cpp` (Educativa)
+
+**Características básicas:**
+- 📚 Basada en el ejemplo del profesor
+- 📚 Código más simple y directo
+- 📚 Cambio manual de algoritmo (comentar/descomentar líneas)
+- 📚 Ideal para aprender los conceptos básicos
+
+**Uso:**
+```bash
+Proyecto3B-Encriptador.exe e [origen] [destino]
+Proyecto3B-Encriptador.exe d [encriptado] [restaurado]
+```
+
+**Ejemplo:**
+```bash
+Proyecto3B-Encriptador.exe e MiFoto.jpg MiFoto.enc
+Proyecto3B-Encriptador.exe d MiFoto.enc MiFoto-restaurado.jpg
+```
+
+**Nota:** Para cambiar de algoritmo, editar el código y comentar/descomentar:
+```cpp
+// Veneno_1(buffer, leidos); // Algoritmo 1
+Veneno_2(buffer, leidos);    // Algoritmo 2 ← ACTIVO
+// Veneno_3(buffer, leidos); // Algoritmo 3
+```
+
+---
+
+## 🎯 ¿Cuál usar?
+
+| Característica | Versión Avanzada | Versión Básica |
+|----------------|------------------|----------------|
+| Header automático | ✅ | ❌ |
+| Carpetas automáticas | ✅ | ❌ |
+| Cambio de algoritmo | Argumento CLI | Editar código |
+| Complejidad | Mayor | Menor |
+| **Recomendado para** | **Uso práctico** | **Aprendizaje** |
+
+**Recomendación:** Usa la **Versión Avanzada** para el proyecto final. La Versión Básica es útil para entender cómo funcionan los algoritmos paso a paso.
+
+---
+
 ## 🔐 Los 5 Algoritmos
 
 ### 1️⃣ Algoritmo 1: Inversión del Bit 0
