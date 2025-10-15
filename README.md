@@ -163,9 +163,8 @@ Cada proyecto tiene su propio README con:
 
 ## 🔗 Links Útiles
 
-- 📺 [Playlist Completa de Videos](LINK_PLAYLIST_YOUTUBE)
-- 📄 [Especificación del Proyecto 3A](./Proyecto-3A-Huffman/docs/)
-- 📄 [Especificación del Proyecto 3B](./Proyecto-3B-Encriptacion/docs/)
+- 📄 [Especificación del Proyecto 3A](./Proyecto3A-Huffman/docs/)
+- 📄 [Especificación del Proyecto 3B](./Proyecto3B-Encriptacion/docs/)
 
 ---
 
