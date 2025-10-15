@@ -1,0 +1,48 @@
+ALGORITMO DE HUFFMAN - PROYECTO 3A
+====================================
+
+El algoritmo de Huffman es un metodo de compresion sin perdida.
+Fue desarrollado por David Huffman en 1952 mientras era estudiante.
+
+FUNCIONAMIENTO:
+El algoritmo funciona creando un arbol binario donde los simbolos
+mas frecuentes tienen codigos mas cortos. Esto permite comprimir
+los datos de manera eficiente.
+
+PASOS DEL ALGORITMO:
+1. Calcular frecuencias de cada simbolo en el archivo
+2. Construir arbol binario de Huffman usando cola de prioridad
+3. Generar codigos binarios para cada simbolo del arbol
+4. Comprimir el archivo reemplazando simbolos por sus codigos
+5. Guardar tabla de codigos en el header del archivo comprimido
+
+VENTAJAS:
+- Compresion optima para codigos prefix-free
+- Facil implementacion en cualquier lenguaje
+- Rapido procesamiento de datos
+- No requiere conocimiento previo de los datos
+- Funciona bien con archivos de texto
+
+DESVENTAJAS:
+- Necesita dos pasadas sobre los datos
+- No funciona bien con archivos ya comprimidos
+- Requiere guardar tabla de codigos en el header
+- Puede expandir archivos muy pequeños
+
+APLICACIONES PRACTICAS:
+- Formatos de imagen: JPEG, PNG, GIF
+- Formatos de video: MPEG, H.264
+- Formatos de compresion: ZIP, GZIP, BZIP2
+- Transmision de datos en redes
+- Almacenamiento eficiente de datos
+
+Este archivo tiene muchas palabras repetidas para demostrar
+la efectividad del algoritmo de compresion de Huffman.
+Las palabras como algoritmo, compresion, datos, archivo,
+Huffman, simbolo, codigo, binario, eficiente aparecen
+multiples veces para maximizar la compresion.
+
+algoritmo algoritmo algoritmo compresion compresion
+datos datos archivo archivo Huffman Huffman
+codigo codigo binario binario eficiente eficiente
+simbolo simbolo tabla tabla arbol arbol

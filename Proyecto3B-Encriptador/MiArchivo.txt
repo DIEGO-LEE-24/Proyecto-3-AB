@@ -1,0 +1,11 @@
+Proyecto 3B - Sistema de Encriptacion
+Estudiante: Lee Sang Cheol
+Carne: 2024801079
+
+Este archivo demuestra el funcionamiento correcto
+de los 5 algoritmos de encriptacion implementados
+usando manipulacion de bits en C++.
+
+Operadores utilizados: AND, OR, XOR, <<, >>
+
+Prueba exitosa!

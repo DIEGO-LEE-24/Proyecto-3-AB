@@ -1,0 +1,69 @@
+# ============================================================
+# .gitignore para Proyectos de C++
+# ============================================================
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+
+# Archivos compilados
+*.exe
+*.out
+*.app
+*.o
+*.a
+
+# Archivos comprimidos/encriptados (resultados de programas)
+*.huf
+*.enc
+*.restored
+
+# Carpetas de output
+c:\misproyectosdelTec-bak/
+c:\misproyectosdelTec-Restore/
+
+# Archivos de prueba grandes
+*.bmp
+*.jpg
+*.png
+*.pdf
+*.mp4
+*.mp3
+*.zip
+*.rar
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+*.swp
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Archivos de backup
+*.bak
+*.backup
+*~
