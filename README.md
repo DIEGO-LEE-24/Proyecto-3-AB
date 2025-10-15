@@ -161,7 +161,7 @@ Cada proyecto tiene su propio README con:
 
 ---
 
-## 🔗 Links Útiles
+## 🔗 Documentaciones
 
 - 📄 [Especificación del Proyecto 3A](./Proyecto3A-Huffman/docs/)
 - 📄 [Especificación del Proyecto 3B](./Proyecto3B-Encriptador/docs/)
