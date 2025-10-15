@@ -180,8 +180,6 @@ Este código es para propósitos educativos del curso de Estructuras de Datos.
 **Lee Sang Cheol (Diego)**  
 Estudiante de Ingeniería en Computación  
 Tecnológico de Costa Rica  
-📧 [tu-email@ejemplo.com]  
-🔗 [LinkedIn](tu-linkedin)
 
 ---
 
