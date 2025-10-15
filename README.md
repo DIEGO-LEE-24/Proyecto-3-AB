@@ -12,8 +12,8 @@
 
 Este repositorio contiene la implementación de proyectos avanzados de estructuras de datos:
 
-- **[Proyecto 3A: Compresor de Huffman](./Proyecto-3A-Huffman/)** - Algoritmo de compresión sin pérdida
-- **[Proyecto 3B: Encriptación con 5 Algoritmos](./Proyecto-3B-Encriptacion/)** - Sistema de encriptación por manipulación de bits
+- **[Proyecto 3A: Compresor de Huffman](./Proyecto3A-Huffman/)** - Algoritmo de compresión sin pérdida
+- **[Proyecto 3B: Encriptación con 5 Algoritmos](./Proyecto3B-Encriptador/)** - Sistema de encriptación por manipulación de bits
 
 ---
 
@@ -37,10 +37,10 @@ Implementación completa del algoritmo de compresión de Huffman.
 - **Espacio:** O(m) ≤ O(256)
 
 ### Videos:
-- 📺 [Demostración de Uso](LINK_YOUTUBE_3A_DEMO)
-- 📺 [Análisis Técnico](LINK_YOUTUBE_3A_TECNICO)
+- 📺 [Demostración de Uso](https://youtu.be/S28fabMBBYM)
+- 📺 [Análisis Técnico](https://youtu.be/RtbK334p-9o)
 
-**[Ver código →](./Proyecto-3A-Huffman/)**
+**[Ver código →](./Proyecto3A-Huffman/)**
 
 ---
 
@@ -67,11 +67,18 @@ Sistema completo de encriptación con 5 algoritmos diferentes basados en manipul
 - `&` (AND) - Extracción de bits
 - `|` (OR) - Combinación de bits
 
-### Videos:
-- 📺 [Demostración de Uso](LINK_YOUTUBE_3B_DEMO)
-- 📺 [Análisis Técnico](LINK_YOUTUBE_3B_TECNICO)
+### Versiones del Código:
+Este proyecto incluye **dos implementaciones**:
+- **`Proyecto3B_Encriptador.cpp`** ⭐ - Versión avanzada con header automático y carpetas
+- **`Proyecto3B-Encriptador.cpp`** - Versión básica educativa (estilo ejemplo del profesor)
 
-**[Ver código →](./Proyecto-3B-Encriptacion/)**
+Ambas versiones implementan los mismos 5 algoritmos. La diferencia está en el sistema de gestión de archivos.
+
+### Videos:
+- 📺 [Demostración de Uso](https://youtu.be/b2K6pvnzSMI)
+- 📺 [Análisis Técnico](https://youtu.be/75fejyZTIO0)
+
+**[Ver código →](./Proyecto3B-Encriptador/)**
 
 ---
 
