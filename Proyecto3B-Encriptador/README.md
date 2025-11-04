@@ -394,10 +394,11 @@ a | b  // Combina bits de ambos
 
 ---
 
-## 🎥 Videos
+### Videos:
+- 📺 [Demostración de Uso](https://youtu.be/b2K6pvnzSMI)
+- 📺 [Análisis Técnico](https://youtu.be/75fejyZTIO0)
 
-- 📺 **Demostración de Uso:** [Link YouTube]
-- 📺 **Análisis Técnico:** [Link YouTube]
+**[Ver código →](./Proyecto3B-Encriptador/)**
 
 En los videos se explica:
 - ✅ Ejecución de los 5 algoritmos

@@ -161,16 +161,84 @@ Cada proyecto tiene su propio README con:
 
 ---
 
-## 🔗 Links Útiles
+## 🔗 Documentaciones
 
 - 📄 [Especificación del Proyecto 3A](./Proyecto3A-Huffman/docs/)
-- 📄 [Especificación del Proyecto 3B](./Proyecto3B-Encriptacion/docs/)
+- 📄 [Especificación del Proyecto 3B](./Proyecto3B-Encriptador/docs/)
 
 ---
 
 ## 📝 Licencia
 
 Este código es para propósitos educativos del curso de Estructuras de Datos.
+
+---
+
+## 🛠️ Archivos Adicionales
+
+### 📘 OperadoresBits-Explicacion.cpp
+
+Programa educativo que demuestra el uso de todos los operadores bitwise.
+
+**Características:**
+- ✅ Demostración interactiva de cada operador
+- ✅ Ejemplos visuales en binario, hexadecimal y decimal
+- ✅ Aplicaciones prácticas en Huffman
+- ✅ Código comentado para aprendizaje
+
+**Compilar y ejecutar:**
+```bash
+g++ OperadoresBits-Explicacion.cpp -o OperadoresBits.exe
+OperadoresBits.exe
+```
+
+**Operadores demostrados:**
+- `&` (AND) - Leer/verificar bits con máscaras
+- `|` (OR) - Activar/escribir bits
+- `^` (XOR) - Invertir bits, encriptación
+- `~` (NOT) - Complemento de bits
+- `<<` (Left Shift) - Desplazar izquierda
+- `>>` (Right Shift) - Desplazar derecha
+
+---
+
+### 🧪 GeneradorPruebas.cpp
+
+Herramienta de testing automático para el compresor.
+
+**Características:**
+- ✅ Prueba automática de múltiples archivos
+- ✅ Verifica integridad byte por byte
+- ✅ Genera tabla de resultados
+- ✅ Calcula porcentajes de compresión
+- ✅ Exporta reporte a archivo
+
+**Compilar y ejecutar:**
+```bash
+g++ GeneradorPruebas.cpp -o GeneradorPruebas.exe -std=c++17
+GeneradorPruebas.exe
+```
+
+**Tipos de archivos probados:**
+- `.txt` - Archivos de texto
+- `.bmp` - Imágenes sin comprimir
+- `.jpg` - Imágenes comprimidas
+- `.exe` - Ejecutables
+- `.mp3`, `.zip` - Archivos pre-comprimidos
+
+**Salida:**
+```
+========================================================================
+                        RESULTADOS DE PRUEBAS
+========================================================================
+ARCHIVO              TIPO    ORIGINAL   COMPRIM.   REDUCC.%  OBSERVACIONES
+------------------------------------------------------------------------
+prueba.txt           .txt         20         8       60.00%   Excelente
+documento.txt        .txt       1824       861      52.79%   Excelente
+imagen.bmp           .bmp     500000    350000      30.00%   Buena
+foto.jpg             .jpg     300000    305000      -1.67%   Sin compresión
+========================================================================
+```
 
 ---
 
