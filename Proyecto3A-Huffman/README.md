@@ -309,9 +309,13 @@ Huffman.cpp
 
 ---
 
-## 🎥 Video Demostración
+## 🎥 Videos
 
-**📺 Ver video completo:** [YouTube - Proyecto 3A Huffman](https://youtu.be/S28fabMBBYM)
+
+- 📺 [Demostración de Uso](https://youtu.be/S28fabMBBYM)
+- 📺 [Análisis Técnico](https://youtu.be/RtbK334p-9o)
+
+**[Ver código →](./Proyecto3A-Huffman/)**
 
 El video de demostración incluye:
 1. ✅ Compresión de archivos de texto
