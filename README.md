@@ -1,5 +1,12 @@
 # Proyectos de Estructuras de Datos
 
+> **English summary.** Two solo course projects for *Data Structures* at Instituto Tecnológico de Costa Rica (Oct 2025), in C++.
+>
+> - **3A – Huffman compressor** (`Proyecto3A-Huffman/huffman.cpp`): builds a Huffman tree with a min-heap priority queue, writes prefix-free codes and decompresses back to the original bytes; works on any file type.
+> - **3B – bit-manipulation encryptor** (`Proyecto3B-Encriptador/`): five reversible byte-level algorithms using XOR, bit rotation and alternating masks.
+> - No automated tests; each folder has a user manual and technical documentation (Spanish PDFs) and demo videos.
+
+
 **Estudiante:** Lee Sang Cheol (Diego)  
 **Carné:** 2024801079  
 **Curso:** Estructuras de Datos  
