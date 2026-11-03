@@ -8,7 +8,6 @@
 
 
 **Estudiante:** Lee Sang Cheol (Diego)  
-**Carné:** 2024801079  
 **Curso:** Estructuras de Datos  
 **Institución:** Tecnológico de Costa Rica  
 **Fecha:** Octubre 2025
